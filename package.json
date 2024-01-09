@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn styles && next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "styles": "sass --watch src/styles:src/css"
+    "styles": "sass src/styles:src/css",
+    "styles:watch": "sass --watch src/styles:src/css"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
