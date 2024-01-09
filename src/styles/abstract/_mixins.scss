@@ -1,0 +1,23 @@
+@use '../abstract/variables';
+
+@mixin breakpoint($point) {
+
+  @if $point ==medium {
+    @media (min-width: variables.$breakpoint-md) {
+      @content;
+    }
+  }
+
+  @else if $point ==large {
+    @media (min-width: variables.$breakpoint-lg) {
+      @content;
+    }
+  }
+
+  @else if $point ==xlarge {
+    @media (min-width: variables.$breakpoint-xl) {
+      @content;
+    }
+  }
+
+}

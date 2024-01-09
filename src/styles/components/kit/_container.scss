@@ -1,0 +1,21 @@
+@use '../../abstract/variables';
+@use '../../abstract/mixins';
+
+.container {
+  max-width: map-get(variables.$container-max-widths, sm);
+  width: 100%;
+
+  @include mixins.breakpoint(medium) {
+    max-width: map-get(variables.$container-max-widths, md);
+  }
+
+  @include mixins.breakpoint(large) {
+    max-width: map-get(variables.$container-max-widths, lg);
+  }
+
+  @include mixins.breakpoint(xlarge) {
+    max-width: map-get(variables.$container-max-widths, xl);
+  }
+
+  margin: 2rem auto;
+}

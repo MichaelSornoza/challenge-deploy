@@ -1,0 +1,28 @@
+@use '../../abstract/variables';
+
+.cart-product-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .cart-price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: variables.$light;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .cart-counter {
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+
+  .total {
+    font-size: 1rem;
+    font-weight: 700;
+    color: variables.$light;
+  }
+}
