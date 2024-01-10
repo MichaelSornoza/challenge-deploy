@@ -1,7 +1,6 @@
 'use client'
 import Checkout from '@/components/checkout'
 import Product from '@/components/products/product'
-// import '@/css/styles.css'
 
 import { type RootState } from '@/store'
 import { resetCart } from '@/store/slices/cart'

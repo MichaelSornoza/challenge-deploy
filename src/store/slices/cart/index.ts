@@ -1,5 +1,4 @@
 import { type RootState } from '@/store'
-// import type { IProduct } from '@/types/products'
 import type { ICartProduct } from '@/types/cart'
 import { type PayloadAction, createSlice } from '@reduxjs/toolkit'
 
