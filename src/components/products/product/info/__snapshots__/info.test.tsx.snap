@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info component matches snapshot 1`] = `
+<div>
+  <footer
+    class="cart-product-footer"
+  >
+    <div
+      class="cart-price"
+    >
+      <div>
+        Precio: 
+        <span>
+          $ 
+          25
+        </span>
+      </div>
+      <div>
+        <span
+          class="cart-counter"
+        >
+          x 
+          4
+        </span>
+      </div>
+    </div>
+    <div
+      class="total"
+    >
+      Total: 
+      <span>
+        $ 
+        100
+      </span>
+    </div>
+  </footer>
+</div>
+`;

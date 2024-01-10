@@ -17,7 +17,7 @@ const Add = ({ counter, amount, handleCounter, addItemToCart }: IAddProps): JSX.
           <button type="button" className="primary" onClick={() => { handleCounter('add') }}>+</button>
         </div>
         <div className="cart-button-container">
-          <button type="button" disabled={counter === 0} className="icon-button success" onClick={addItemToCart}>
+          <button type="button" disabled={counter === 0} aria-label='add-to-cart' name="add-to-cart" className="icon-button success" onClick={addItemToCart}>
             <CartPlus />
           </button>
         </div>
