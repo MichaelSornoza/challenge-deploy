@@ -20,18 +20,17 @@
     }
   }
 
-  .cart {
-    width: 2rem;
-    height: 2rem;
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 
     button {
-      height: 100%;
-      width: 100%;
+      width: 2rem;
+      height: 2rem;
       padding: 0;
 
       svg {
-        height: 100%;
-        width: 100%;
         fill: variables.$light;
       }
     }

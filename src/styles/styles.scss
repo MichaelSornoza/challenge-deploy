@@ -1,8 +1,7 @@
 @use 'abstract/variables';
 @use 'components/header';
 @use 'components/kit';
-@use 'pages/home';
-@use 'pages/cart';
+@use 'pages';
 
 body {
   margin: 0;
@@ -26,6 +25,10 @@ h6 {
 
 .bg-secondary {
   background-color: variables.$secondary;
+}
+
+.bg-light {
+  background-color: variables.$light;
 }
 
 dialog {

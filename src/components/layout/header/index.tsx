@@ -1,5 +1,6 @@
 'use client'
 
+import AdminIcon from '@/components/icons/admin'
 import Cart from '@/components/icons/cart'
 import Link from 'next/link'
 
@@ -11,10 +12,15 @@ const Header = (): JSX.Element => {
           <h1>Logo</h1>
         </Link>
       </div>
-      <div className="cart">
+      <div className="buttons">
         <Link href="/cart">
           <button type="button" className="primary">
             <Cart />
+          </button>
+        </Link>
+        <Link href="/admin">
+          <button type="button" className="primary">
+            <AdminIcon />
           </button>
         </Link>
       </div>
